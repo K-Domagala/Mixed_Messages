@@ -23,3 +23,8 @@ const deserts = [
     "Takeaway; treat yourself, because you have had a hard day.",
     "Pancakes; the ingredients are always there."
 ]
+
+function chooseRand(array){
+    let randIndex = Math.floor(Math.random()*array.length);
+    return array[randIndex];
+}
